@@ -9,4 +9,27 @@
 
 section{
     height: 100vh;
+    scroll-snap-align: start;
+}
+
+.contain {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one {
+    background: mediumspringgreen;
+}
+
+.two {
+    background: coral;
+}
+
+.three {
+    background: lightpink;
+}
+
+.four {
+    background: deepskyblue;
 }
