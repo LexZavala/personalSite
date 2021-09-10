@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: whitesmoke;
+}
+
 section{
     height: 100vh;
     scroll-snap-align: start;
@@ -49,12 +53,19 @@ section{
 }
 .two {
     /*background: coral;*/
+
 }
 
 .three {
     /*background: lightpink;*/
+
 }
 
 .four {
     /*background: deepskyblue;*/
+
+}
+
+.bold {
+    font-weight: bold;
 }
