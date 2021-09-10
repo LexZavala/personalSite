@@ -90,3 +90,7 @@ section{
     margin-top: 1em;
     z-index: 2;
 }
+
+.textContainer {
+    width: 30em;
+}
