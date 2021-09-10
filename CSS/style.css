@@ -9,6 +9,7 @@
 
 body {
     background: whitesmoke;
+    overflow: hidden; /* Hide scrollbars */
 }
 
 section{
@@ -30,7 +31,7 @@ section{
 #name {
     color: #303437;
     font-weight: bold;
-    margin-left: .3em;
+    margin-left: .1em;
     font-size: 8em;
     margin-bottom: 0;
     position: absolute;
@@ -74,9 +75,18 @@ section{
     position: relative
 }
 
-.bold {
+.smallBold {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #FF7F50;
+    -ms-transform: translateY(200%);
+    transform: translateY(200%);
+    /*margin-top: 3em;*/
+}
+
+.bigBold {
     font-weight: bold;
     font-size: 4em;
     margin-top: 1em;
-    position: absolute;
+    z-index: 2;
 }
