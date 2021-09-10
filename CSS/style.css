@@ -53,19 +53,30 @@ section{
 }
 .two {
     /*background: coral;*/
+    position: relative;
+
 
 }
 
 .three {
     /*background: lightpink;*/
+    position: relative;
 
 }
 
 .four {
     /*background: deepskyblue;*/
+    position: relative;
 
+}
+
+.five {
+    position: relative
 }
 
 .bold {
     font-weight: bold;
+    font-size: 4em;
+    margin-top: 1em;
+    position: absolute;
 }
