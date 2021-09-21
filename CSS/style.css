@@ -100,3 +100,8 @@ p {
     color: #949393;
     width: 28em;
 }
+
+#contactInfo {
+    list-style-type: none;
+}
+
