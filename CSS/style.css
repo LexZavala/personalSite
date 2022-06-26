@@ -40,12 +40,12 @@ section{
     transform: translateY(-50%);
 }
 
-.memoji {
-    width: 35%;
-    height: 55%;
-    border-radius: 50%;
-    border: solid coral 15px;
+.memojiContainer {
+    width: 30%;
+    height: 50%;
+    border: solid coral 1px;
     display:flex;
+    align-self: flex-end;
 }
 
 #githubButton {
